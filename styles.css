@@ -1,69 +1,51 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.Post {
+    margin: auto;
+    background-color: bisque;
+    width: 750px;
+    height: 800px;
+    border: solid black;
+    
 }
 
-body {
-    background-color: lightgray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #1F1300;
-}
 
-.center {
-    width: 1000px;
-    height: auto;
+.logoNombreLugar {
     display: flex;
-    justify-content: center;
-    background-color: cornsilk;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px 0px 10px 10px;
 }
-h1 {
-    font-size: 80px;
-    position: fixed;
-    border: 2px solid #364156;
-    margin-top: 10px;
-    width: 1000px;
-    text-align: center;
-    background-color: #63A375;
+
+h2 {
+    margin-left: 5px;
+}
+
+h3 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imglogo {
+    width: 70px;
+    height: 70px;
 }
 
 .foto {
-    justify-content: center;
-    border: solid 2px black;
-    width: 700px;
-    height: auto;
-    margin-top: 120px;
-    background-color: #63A375;
+    width: 750px;
+    height: 500px;
 }
 
-.nombre {
+.iconos {
     display: flex;
-    padding: 5px;
 }
 
-.name{
-    width: 620px;
+.icon {
+    width: 30px;
+    height: 30px;
+    margin:  10px 0px 10px 10px;
 }
 
-img {
-    width: 100%;
-    height: auto;
+#iconDerecha {
+    margin-left: 590px;
 }
 
-p{
-    padding: 5px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0px 10px 0px;
-}
-
-li {
-    font-size: 20px;
-    margin: 0 100px;
-    display: inline;
+.texto {
+    margin-left: 10px;
 }
